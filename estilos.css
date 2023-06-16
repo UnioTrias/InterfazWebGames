@@ -1,0 +1,60 @@
+@font-face {
+  font-family:vetica ;
+  src: url(media/coolvetica\ condensed\ rg.otf);
+}
+@font-face {
+  font-family:titulo;
+  src: url(media/GameSetDemoRegular.ttf);
+}
+
+body{
+  background-image: url(media/fondo2.png);
+  background-size: contain;
+  background-repeat: repeat-y; 
+  font-family: 'vetica' !important 
+}
+span{
+  color: #ff0685; 
+  /* ff0663 */
+}
+/* .badge{
+  font-size: 1em !important; 
+} */
+.titulo{
+  font-family: 'titulo';
+  color: aliceblue;
+}
+.registro{
+  background-color: #ff0685 !important;
+}
+.dropdown-menu {
+  background-color: #473840e8 !important;
+  color:aliceblue !important;
+}
+.nav-link{
+  font-size: 1.5em !important;
+}
+.inicio{
+  filter: invert(100%);
+}
+.barra{
+    background-color: #260012;
+}
+.card-img-top {
+  max-width: 100%;
+  height: 55%; /* Cambia este valor según tus necesidades */
+  object-fit: cover;
+}
+.accordion-button:not(.collapsed)::after { 
+  filter: brightness(0%) invert(90%) ;
+}
+
+.accorrdion—button:focus{
+  box-shadow: inherit; 
+}
+.tamano1{
+  font-size: 0.8em !important;
+}
+.tamano2{
+  font-size: 1.2em !important;
+}
